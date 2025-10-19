@@ -265,6 +265,11 @@
     color:#ffffff;
 
 }
+.heading5 a:hover{
+    text-decoration:underline;
+    cursor: pointer;
+    color:#FFF4A3;
+}
 
 .body2{
     background-color:#D9EEE1;
@@ -852,7 +857,7 @@
 
  .footer .footer1{
     height:102px;
-    width:1000px;
+    width:100%;
     position:relative;
     top:30px;
      display:flex;
@@ -892,8 +897,7 @@
     display:flex;
     justify-content:space-evenly;
     height:225px;
-    width:1000px;
-    border:2px solid black;
+    width:100%;
     margin:10px;
 }
 
@@ -917,4 +921,80 @@
 .hd4 .certified2{
     text-decoration:none;
     color:#dddddd;
+}
+
+.ul1,.ul2,.ul3,.ul4{
+    list-style-type:none;
+    font-size:12px;
+    margin-top:20px;
+}
+
+.ul1:hover{
+    cursor:pointer;
+    color:#FFF4A3;
+}
+.ul2:hover{
+    cursor:pointer;
+    color:#FFF4A3;
+}
+.ul3:hover{
+    cursor:pointer;
+    color:#FFF4A3;
+}
+.ul4:hover{
+    cursor:pointer;
+    color:#FFF4A3;
+}
+
+.footer3{
+    height:80px;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+
+.box{
+    display:column;
+    justify-content:space-evenly;
+    justify-items:center;
+    align-items:center;
+    width:80%;
+}
+.x1{
+    color:white;
+    display:flex;
+    justify-content:space-evenly;
+    width:50%;
+    font-size:16px;
+    font-family:'Source Sans Pro', sans-serif;
+}
+.x1:hover{
+    cursor:pointer;
+    color:#FFF4A3;
+    text-decoration:underline;
+}
+.x2{
+    color:white;
+    text-align:center;
+    margin-top:20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:12px;
+}
+.x2:hover{
+    cursor:pointer;
+    color:#FFF4A3;
+}
+
+.x3{
+    color:white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:12px;
+    margin-top:20px;
+}
+
+.x3:hover{
+    cursor:pointer;
+    color:#FFF4A3;
 }
